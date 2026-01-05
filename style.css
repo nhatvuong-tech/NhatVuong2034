@@ -170,3 +170,64 @@ button {
 button:hover {
     background-color: #0284c7;
 }
+/* ===== RESPONSIVE CHO ĐIỆN THOẠI ===== */
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    /* CARD CHUYỂN TỪ NGANG → DỌC */
+    .card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* AVATAR NHỎ LẠI */
+    .avatar {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+
+    /* KHỐI THÔNG TIN */
+    .card > div:last-child {
+        padding: 15px;
+    }
+
+    /* TIÊU ĐỀ */
+    h1 {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    h2, h3 {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    /* ĐOẠN VĂN */
+    div[style*="bisque"] p {
+        font-size: 16px !important;
+    }
+
+    /* LINK */
+    a {
+        font-size: 16px !important;
+        padding: 10px 16px;
+    }
+
+    /* FORM */
+    input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+
